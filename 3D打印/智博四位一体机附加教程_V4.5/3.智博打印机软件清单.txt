@@ -1,0 +1,61 @@
+<一>3D打印
+1：打印机主控板Mega2560的USB驱动程序
+---《arduino mega2560 usb驱动 ch340.rar》
+
+2：打印控制软件Repetier Host
+---《3D打印软件-repetier-host.rar》
+---备注：Windows Xp需要安装.net环境，已经包含在压缩包
+---Microsoft .NET Framework 4.0
+
+3：Cura切片软件（需要导入智博打印机参数文件）
+---《Cura.rar》
+
+4：打印机主板升级软件
+---《arduino-1.0.6-windows.zip》
+
+5：打印机固件程序（在国外原版基础上有参数改动）
+---《Marlin_for_zhibo_printer.rar》
+
+6：LCD驱动库for arduino（u8glib，在国外原版基础上有参数改动）
+---《U8glib.rar》
+
+7：3D建模软件openSCAD，这是开源社区推荐的，用代码建模的方式，
+   但对于从事结构或者外观设计工程师来说，没有必要用这种过于简陋的建模方式，
+   用Pro-e，SolidWorks，Catia，UG，犀牛，等等3D建模软件都可以，
+   最后把3D导出为STL格式即可，注意精度，pro-e中设置弦高为最小值。
+   如果您非工业造型或者结构设计人员，比如软件人员，可以尝试用这个软件，简单结构几句代码即可完成。
+---《OpenSCAD.rar》
+
+<二>激光雕刻
+1：CorelDRAW 矢量图编辑软件（矢量图导入与转化用）
+---《CORELDRAW 12简体中文版.iso》 182M，没有放网盘，网上免费下载链接很多
+2：Inkscape 用于位图导入以及原始gcode生成
+---《inkscape.zip》
+4：AutoCAD 绘图与格式转化（非必须）
+---《AutoCAD.rar》 绿色版
+3：PHP调试器 用于转化打印机固件marlin可读格式的gecode
+---《PHPnow-1.5.6(1).zip》
+
+<三>PCB雕刻（主要针对电木基材的覆铜板）
+1：protel DXP 用于电路图制作以及gerber加工文件生成
+---《proteldxp2004_47341.rar》 这个736M，太大没有放网盘，网上免费下载链接非常多
+2：copperCAM 用于原始Gcode生成（需要导入智博参数文件）
+---《copperCAM.rar》绿色中文完全破解版
+3：PHP调试器 用于转化打印机固件marlin可读格式的gecode
+---《PHPnow-1.5.6(1).zip》
+
+<四>CNC开槽与切割，以及简单浮雕（ABS等塑胶材料）
+1：JDpaint 精雕软件，把灰度图，CAD图纸或者其他格式图纸，转化为NC代码
+   说明：Dpaint也可以制作3d，2d设计图纸，不过我们通常只是作为生产NC代码用。
+---《JDPaint_5.19破解版.zip》
+2：AutoCAD 制作加工图纸（也可以由3D软件导出2D图，如pro-e，solidworks，catia，UG等等）
+---《AutoCAD.rar》
+3：PHP调试器 用于NC代码转化3D打印机固件marlin可读格式的gecode
+---《PHPnow-1.5.6(1).zip》
+
+
+
+说明，除了CorelDRAW12与Protel2004没有提供，其余已经全部放百度网盘，
+而这两个文件，网上免费链接很多，文件比较大，自己搜索后下载。
+
+

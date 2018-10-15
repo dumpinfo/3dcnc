@@ -1,0 +1,25 @@
+
+CNC以及激光雕刻PCB雕刻，都需要安装PHP解释器程序《PHPnow-1.5.6》
+这个软件已经提供给大家，具体使用说明请参考压缩包中的readme.txt
+安装后，把copperCAM.php和laser.php拷贝到D:\PHPnow-1.5.6\htdocs 目录
+
+在浏览器运行以下两个文件即可
+http://localhost/coppercam.php
+http://localhost/laser.php
+
+
+激光雕刻需要“output_0001.ngc”文件，
+这个文件由Inkscape软件的GcodeTools插件生成，
+生成在这个文件夹D:\Program Files\Inkscape\data\
+需要把它拷贝到php调试文件夹
+
+
+PCB雕刻需要用到“CopperCAM1.iso”和“CopperCAM2.iso”
+这两个文件由CopperCAM软件生成。生成后文件名为CopperCAM.iso，
+把线路雕刻的改名为CopperCAM1.iso
+把钻孔和铣板边的改名为CopperCAM2.iso
+同样需要把这两个文件拷贝到php调试文件夹
+
+位图转为矢量图用到CorelDraw 12绘图软件，由于这款软件安装文件太大，
+大家自行搜索下载即可，这在软件清单中有说明，
+另外需要自行下载的还有电路板软件Pretel 2004，也是因为安装文件过大。

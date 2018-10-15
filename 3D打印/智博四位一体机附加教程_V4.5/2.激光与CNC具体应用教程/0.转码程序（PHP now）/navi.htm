@@ -1,0 +1,52 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+</head>
+<body>
+
+<a href="javascript:void(0);" onclick="javascript:f_1(1)">1:激光烧刻PCB(copperCAM)</a><br>
+<a href="javascript:void(0);" onclick="javascript:f_1(2)">2:通用激光雕刻/文字/矢量图/位图(JDpaint)</a><br>
+<a href="javascript:void(0);" onclick="javascript:f_1(3)">3:CNC雕刻PCB(copperCAM)</a><br>
+<a href="javascript:void(0);" onclick="javascript:f_1(4)">4:CNC雕刻/切割/开槽/浮雕(JDpaint)</a><br>
+<a href="javascript:void(0);" onclick="javascript:f_1(5)">5:油性笔涂鸦(JDpaint)</a>
+<!--附:Cura首层优化(内部使用)-->
+
+<a href="javascript:void(0);" onclick="javascript:f_1(9)">   .</a>
+
+<script type="text/javascript" >
+
+function f_1(canshu){
+switch(canshu){
+case 1:
+window.parent.location.href="01_copperLaser.php"
+break;
+case 2:
+window.parent.location.href="02_JDlaser.php"
+break;
+case 3:
+window.parent.location.href="03_copperCAM.php"
+break;
+case 4:
+window.parent.location.href="04_JDcnc.php"
+break;
+case 5:
+window.parent.location.href="05_JDpen.php"
+break;
+
+case 9:
+window.parent.location.href="09_cura.php"
+break;
+
+
+}
+
+}
+
+
+</script>
+</body>
+</html>
