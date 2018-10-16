@@ -1,0 +1,68 @@
+*****************************************************************
+      SolidWorks Corporation - IGES Processor Status Report
+*****************************************************************
+=================================================================
+General Information
+=================================================================
+Sending System Product I.D.  : kuka kr16 assembly.SLDASM
+Receiving System Product I.D.: kuka kr16 assembly.SLDASM
+File Name                    : E:\fich.install\personal projects\formation arduino\arabic\solidworks\kuka\kr16\KUKA KR16\IGES\kuka kr16 assembly.IGS
+Sending System               : SolidWorks 2016
+Preprocessor Version         : SolidWorks 2016
+File Creation Date           : 180317.053637
+Model Creation Date          : 180317.053637
+Units                        : MM
+Model Space Scale            : 1
+Author                       : maher
+Organization                 : 
+
+
+=================================================================
+Entity Processing Information
+=================================================================
+
+
+=================================================================
+Precision analysis of IGES file:
+=================================================================
+  Most prevalent number of significant digits:               3
+  Highest number of significant digits:                      5
+  Average number of significant digits:                2.77261
+  Maximum distance to origin:                          1193.09
+  Minimum distance to origin:                          24.3798
+  Effective number of significant digits:              4.98225
+
+
+=================================================================
+Entity Summary
+=================================================================
+-----------------------------------------------------------------
+Type Name                                         Count Converted
+---- ----                                         ----- ---------
+100  Arc                                           3750      3750
+102  Composite curve                               6862      6862
+110  Line                                         11458     11458
+120  Surface of revolution                         1053      1053
+124  Transformation matrix                         2695      2695
+126  Rational B-spline curve                      15850     15850
+128  Rational B-spline surface                     2035      2035
+142  Curve on a parametric surface                 3431      3431
+144  Trimmed parametric surface                    3088      3088
+308  Subfigure definition                             9         9
+314  Color definition                               311       311
+408  Singular subfigure instance                     12        12
+_________________________________________________________________
+
+
+=================================================================
+Result Summary
+=================================================================
+SolidWorks Feature Type                Count
+-----------------------                -----
+Solid feature(s)                       12
+Surface feature(s)                     0
+Curve/Sketch feature(s)                0
+--------------------------------------------
+Start time: Saturday, March 17, 2018 05:39:20
+Finish time: Saturday, March 17, 2018 05:40:02
+Processing time: 0 days, 00 hours, 00 mins, 42 secs
